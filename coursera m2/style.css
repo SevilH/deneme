@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+h1{
+    color: rgb(37, 192, 91);
+    text-align: center;
+    font-weight: bold;
+    font-size: 200%;
+    font-family: "Gill Sans", sans-serif;
+    margin: 10px;
+}
+section{
+    padding: 15px;
+    width:100% ;
+    position: relative;
+
+}
+div{
+   background-color:rgb(112, 141, 135);
+    width: 100%;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    position: relative;
+}
+.ad1{
+    float: right;
+    width: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 150%;
+    border: 3px solid rgb(36, 73, 62);
+    padding: 5px;
+    margin: 0px;
+    background-color: rgb(213, 124, 188);
+}
+.ad2{
+    float: right;
+    width: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 150%;
+    border: 3px solid rgb(36, 73, 62);
+    padding: 5px;
+    margin: 0px;
+    background-color: rgb(200, 218, 120);
+}
+.ad3{
+    float: right;
+    width: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 150%;
+    border: 3px solid rgb(36, 73, 62);
+    padding: 5px;
+    margin: 0px;
+    background-color: rgb(202, 83, 83);
+
+}
+.aciqlama{
+    padding: 5px;
+    border: none;
+    color: solid black;
+    background-color:rgb(112, 141, 135) ;
+}
+
+@media (min-width:992px) {
+    .col-lg-4{
+        float: left;
+        width: 33.33%;
+    }
+}
+@media(min-width:768px) and (max-width:991px){
+    .col-md-6{
+        float: left;
+        width: 50%;
+        
+    }
+    .col-md-12{
+        float: left;
+        width: 100%;
+        margin: auto;
+    }
+}
+@media(max-width: 767px){
+    .col-sm-12{
+        float: left;
+        width: 100%;
+    }
+}
